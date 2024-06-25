@@ -1,1 +1,1 @@
-# ML_RTM_Geochemical-modelling
+# Improving Geochemical Calculation in RTM with Machine Learning Models

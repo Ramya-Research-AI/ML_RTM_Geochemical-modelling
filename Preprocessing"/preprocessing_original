@@ -10,7 +10,7 @@ pd.set_option('display.max_rows', None)
 import matplotlib as mpl
 import math
 
-df = pd.read_csv("C:/Users/21294596/OneDrive - Curtin/Coding/Dataset_2.csv")
+df = pd.read_csv("/Coding/Dataset_2.csv")
 print(df.info())
 print(df.describe())
 num_columns = len(df.columns)

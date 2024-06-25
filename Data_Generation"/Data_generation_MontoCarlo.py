@@ -139,8 +139,8 @@ def runSimulation(p):
     return phreeqc.Phreeqc_module(p)
 
 def addInputParameters(params):
-    params['phreeqcpath'] = "C:/Users/21294596/OneDrive - Curtin/Coding/Phree_t1/.conda/Lib/site-packages/phreeqpy/iphreeqc/phreeqc3/IPhreeqc-3.7.3.dll"
-    params['DBpath'] = 'C:/Users/21294596/OneDrive - Curtin/Coding/Phree_t1/iphreeqc-3.7.3-15968/database/phreeqc.dat'
+    params['phreeqcpath'] = "/Lib/site-packages/phreeqpy/iphreeqc/phreeqc3/IPhreeqc-3.7.3.dll"
+    params['DBpath'] = '/iphreeqc-3.7.3-15968/database/phreeqc.dat'
     params['folderresults'] = 'Testproblem6/'
     params['out_compar'] = params['folderresults'] + '/Comparisson/'
     return params

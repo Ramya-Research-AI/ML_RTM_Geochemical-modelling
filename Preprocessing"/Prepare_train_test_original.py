@@ -11,7 +11,7 @@ import matplotlib as mpl
 import math
 
 
-df = pd.read_csv("C:/Users/21294596/OneDrive - Curtin/Coding/Phree_t1/modified_file.csv")
+df = pd.read_csv("/Coding/Phree_t1/modified_file.csv")
 print(df.info())
 from sklearn.model_selection import train_test_split
 

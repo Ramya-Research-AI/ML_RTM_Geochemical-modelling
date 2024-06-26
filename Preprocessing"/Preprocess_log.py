@@ -8,7 +8,7 @@ from glob import glob
 import matplotlib as mpl
 import math
 
-df = pd.read_csv("C:/Users/21294596/OneDrive - Curtin/Coding/Dataset_MC_10k.csv")
+df = pd.read_csv("/Coding/Dataset_MC_10k.csv")
 
 print(df.info())
 print(df.describe())
